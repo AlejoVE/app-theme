@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>App theme</title>
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
 </head>
 <body>
-    <header>
-        <div>
-            <div>
-                <div>
-                    <h1><span>AppTheme</span> </h1>
+    <header id="main-header">
+        <div class="container">
+            <div class="row end-sm end-md end-lg  center-xs middle-xs middle-sm middle-md middle-lg"> 
+                <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                    <h1><span class="primary-text">App</span>Theme</h1>
                 </div>
-                <div>
-                    <nav>
+                <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                    <nav id="navbar">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li class="current"><a href="index.html">Home</a></li c>
                             <li><a href="about.html">About</a></li>
                             <li><a href="services.html">Services</a></li>
                             <li><a href="contact.html">Contact</a></li>
@@ -28,75 +31,57 @@
     </header>
 
     <!--SHOWCASE-->
-    <section>
-        <div>
-            <div>
-                <div>
-                    <h1><span>Welcome To AppTheme</span></h1>
+    <section id="showcase">
+        <div class="container">
+            <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-7 showcase-content">
+                    <h1>Welcome To <span class="primary-text">AppTheme</span c></h1>
                     <p>A template built with HTML5, CSS3 and FlexBoxGrid</p>
                 </div>
-            </div>
-        </div>
+            </div c>
+        </div c>
     </section>
     
     <!--FEAUTRES-->
-    <section>
-        <div>
-            <div>
-                <div>
+    <section id="features">
+        <div id="container">
+            <div class="row center-xs center-sm center-md center-lg">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
                     <h2>Core Features</h2>
                     <p>What's Included</p>
                     <!--ICON ROW 1-->
-                    <div>
-                        <div>
-                            <i></i><br>
+                    <div class="row center-xs center-sm center-md center-lg">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <i class="fa fa-dashboard"></i c><br>
                             <h4>Fully Optimized</h4>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur numquam quam voluptates recusandae deserunt nulla perspiciatis repudiandae hic, quae repellendus maxime sapiente cupiditate perferendis neque autem sint ea dolorum facere?</p>
-                        </div>
-                        <div>
-                            <i></i><br>
+                        </div c>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <i class="fa fa-question-circle-o"></i><br>
                             <h4>Free Support</h4>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur numquam quam voluptates recusandae deserunt nulla perspiciatis repudiandae hic, quae repellendus maxime sapiente cupiditate perferendis neque autem sint ea dolorum facere?</p>
                         </div>
-                        <div>
-                            <i></i><br>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <i class="fa fa-rocket"></i c><br>
                             <h4>Free upgrades</h4>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur numquam quam voluptates recusandae deserunt nulla perspiciatis repudiandae hic, quae repellendus maxime sapiente cupiditate perferendis neque autem sint ea dolorum facere?</p>
                         </div>
                     </div>
                     <!--ICON ROW 2-->
-                    <div>
-                        <div>
-                            <i></i><br>
+                    <div class="row center-xs center-sm center-md center-lg">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <i class="fa fa-line-chart"></i><br>
                             <h4>Uptime Guarantee</h4>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur numquam quam voluptates recusandae deserunt nulla perspiciatis repudiandae hic, quae repellendus maxime sapiente cupiditate perferendis neque autem sint ea dolorum facere?</p>
                         </div>
-                        <div>
-                            <i></i><br>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <i class="fa fa-users"></i><br>
                             <h4>Multi-User</h4>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur numquam quam voluptates recusandae deserunt nulla perspiciatis repudiandae hic, quae repellendus maxime sapiente cupiditate perferendis neque autem sint ea dolorum facere?</p>
                         </div>
-                        <div>
-                            <i></i><br>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <i class="fa fa-plug"></i><br>
                             <h4>Plug & Play</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur numquam quam voluptates recusandae deserunt nulla perspiciatis repudiandae hic, quae repellendus maxime sapiente cupiditate perferendis neque autem sint ea dolorum facere?</p>
-                        </div>
-                    </div>
-                    <!--ICON ROW 3-->
-                    <div>
-                        <div>
-                            <i></i><br>
-                            <h4>Fully Optimized</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur numquam quam voluptates recusandae deserunt nulla perspiciatis repudiandae hic, quae repellendus maxime sapiente cupiditate perferendis neque autem sint ea dolorum facere?</p>
-                        </div>
-                        <div>
-                            <i></i><br>
-                            <h4>Free Support</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur numquam quam voluptates recusandae deserunt nulla perspiciatis repudiandae hic, quae repellendus maxime sapiente cupiditate perferendis neque autem sint ea dolorum facere?</p>
-                        </div>
-                        <div>
-                            <i></i><br>
-                            <h4>Free upgrades</h4>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur numquam quam voluptates recusandae deserunt nulla perspiciatis repudiandae hic, quae repellendus maxime sapiente cupiditate perferendis neque autem sint ea dolorum facere?</p>
                         </div>
                     </div>
@@ -106,45 +91,45 @@
     </section>
 
     <!--INFO SECTION-->
-    <section>
-        <div>
-            <div>
-                <div>
+    <section id="info">
+        <div class="container">
+            <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+                <div class="col-xs-12  col-sm-6 col-md-6 col-lg-6">
                     <img src="img/iphone.png" alt="iphone-picture">
                 </div>
-                <div>
+                <div class="col-xs-12  col-sm-6 col-md-6 col-lg-6">
                     <h2>Core Features</h2>
                     <ul>
-                        <li><i></i>Fully Optimized</li>
-                        <li><i></i>Free Support</li>
-                        <li><i></i>Free upgrades</li>
-                        <li><i></i>UpTime Guarantee</li>
-                        <li><i></i>Multiple Users</li>
-                        <li><i></i>Plug & Play</li>
+                        <li><i class="fa fa-check"></i>Fully Optimized</li>
+                        <li><i class="fa fa-check"></i>Free Support</li>
+                        <li><i class="fa fa-check"></i>Free upgrades</li>
+                        <li><i class="fa fa-check"></i>UpTime Guarantee</li>
+                        <li><i class="fa fa-check"></i>Multiple Users</li>
+                        <li><i class="fa fa-check"></i>Plug & Play</li>
                     </ul>
                 </div>
-            </div>
+            </div c>
         </div>
     </section>
 
     <!--COMPANY SECTION-->
 
-    <section>
-        <div>
-            <div>
-                <div>
+    <section id="company">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                     <h4>Contact Us</h4>
                     <ul>
-                        <li><i></i>(602) 536 896</li>
-                        <li><i></i>support@apptheme.test</li>
-                        <li><i></i>400 Main St, Boston MA</li>
+                        <li><i class="fa fa-phone"></i> (602) 536 896</li>
+                        <li><i class="fa fa-envelope"></i> support@apptheme.test</li>
+                        <li><i class="fa fa-map"></i> 400 Main St, Boston MA</li>
                     </ul>
                 </div>
-                <div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                     <h4>About Us</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
-                <div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                     <h4>Newsletter</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     <form>
@@ -157,10 +142,10 @@
     </section>
 
     <!--FOOTER-->
-    <footer>
-        <div>
-            <div>
-                <div>
+    <footer id="main-footer">
+        <div class="container">
+            <div class="row center-xs center-sm center-md center-lg">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <p>Copyright &copy; 2020 AppTheme</p>
                 </div>
             </div>
