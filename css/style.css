@@ -80,6 +80,24 @@ img{
     opacity: 0.9;
 }
 
+/*FEATURES*/
+#features h2{
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 10´px;
+}
+
+#features p{
+    color: #888;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+#features .fa{
+    font-size: 60px;
+    color: #56a79a;
+}
+
 /*MEDIA QUERIES*/
 @media(max-width: 800px){
     #showcase h1{
