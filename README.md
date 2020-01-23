@@ -12,6 +12,13 @@ As a HYF student, I needed to learn the fundamentals and techniques necessary to
 
 - Learn to make a responsive website.
 
+## Screenshot
+![Responsive Template](https://user-images.githubusercontent.com/59319966/72987889-8f5bfa00-3deb-11ea-8f11-af43441571ab.png)
+
+## Technologies:
+- HTML5
+- CSS5
+- FLexBoxGrid
 ## Credits:
 
 - [Traversy Media](https://www.youtube.com/watch?v=qlA7dputiNc)
